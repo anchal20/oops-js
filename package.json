@@ -1,0 +1,27 @@
+{
+  "name": "learn_oops_in_js",
+  "version": "1.0.0",
+  "description": "small app to learn oops concept in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "author": "Anchal Sachdeva",
+  "license": "ISC",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0"
+  }
+}
